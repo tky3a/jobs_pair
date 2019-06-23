@@ -3,11 +3,11 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.0'
 
-gem 'google-webfonts-rails' #rails font
+# gem 'google-webfonts-rails' #rails font
 gem 'bootstrap'
 gem 'pry-rails'
 gem 'pry-byebug' #binding.pry
-
+gem 'jquery-rails'
 # --admin,権限,user--
 gem 'rails-admin'
 gem 'cancancan'
